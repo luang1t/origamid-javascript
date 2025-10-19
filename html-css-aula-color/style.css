@@ -1,0 +1,19 @@
+/* duas formas de representar cor:
+    Hexadecimal:  #84e = #8844ee
+    A cor é representada através de um código de 6 caracteres que vão de 0 até F.
+
+
+    rgb: rgba(255, 255, 0, 0.5)
+    Uma função que recebe 3 valores diferentes o valor de Red,Green,Black e no caso acima recebe outro valor que é o alfa que meche com a transparencia da cor, ou seja, o quento de transparencia vai ter.
+
+/**/
+h1 {
+    background: #000;
+    color: rgba(255, 255, 0, 0.5);
+}
+
+a {
+    background: seagreen;
+    color: white;
+    font-size: 30px;
+}
